@@ -1,0 +1,67 @@
+
+h2{
+    position: absolute;
+    top: 0;
+}
+
+h3{
+    color: #000000;
+    font-family:'Times New Roman', Times, serif
+}
+
+p{
+    color: rgb(27, 24, 19);
+    font-family: calibri;
+}
+
+header {
+    position: absolute;
+    top: 10px;
+}
+
+/*background*/
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(30deg, #ffc60bd2, #d46306);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*background*/
+
+form {
+    background-color: #327be9;
+    box-shadow: 0 2px 5px rgba(36, 36, 36, 0.1);
+    border: 1px solid #000000;
+    padding: 14px;
+    border-radius: 15px;
+    position: absolute;
+    top: 65px;
+    width: 440px;
+    height: 900px;
+    text-align: center;
+}
+
+/*button retour*/
+.retour-button {
+    position: absolute;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #000000;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 240px;
+    margin-top: -380px;
+
+}
+
+.retour-button:hover {
+    background-color: #c0392b;
+}
+/*button retour*/

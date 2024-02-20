@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoamWeb</title>
+  <link rel="stylesheet" href="accueil.css">
+</head>
+<body>
+
+
+<header>
+  <nav class="navbar">
+    <a href="#" class="menu"></a>
+    <div class="nav-links">
+      <ul>
+        <li><a href="contacter.html">NOUS CONTACTER</a></li>
+        <li><a href="apropos.html">À PROPOS</a></li>
+      </ul>
+    </div>
+    <img src="image/téléchargement-removebg-preview.png" alt="menu" class="menu-hamburger"
+  </nav>
+
+  <script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</header>
+
+
+<div class="cadre">
+    <header>RoamWeb</header>
+    <div class="content"></div>
+    <div class="user-profile">
+      <img class="profile-pic" src="image/téléchargement (2).jpg" alt="User Profile">
+      <div class="user-info">
+        <h2>Drew Matterson</h2>
+        <p>Followers: 235 | Following: 158</p>
+    </div>
+  </div>
+    <main>
+      <div class="content">
+      <div class="post">
+        <img src="image/téléchargement.jpg" alt="RoamWeb Post">
+        <div class="post-descripton"
+        <p> This picture is very beautifoul ! #share #paysage #nature</p>
+        </div>
+
+        <div class="cadre">
+          <button class="like-button" id="like-button">J'aime</button>
+          <span id="like-status">0</span>
+          <button class="comment-button" id="comment-button" onclick="toggleCommentForm()">Commenter</button>
+          <span id="comment-count">0</span>
+          <div id="comment-form">
+              <input type="text" id="comment-input" placeholder="Saisissez votre commentaire">
+              <button onclick="postComment()">Poster</button>
+          </div>
+          <button class="partager-button" id="partager-button">Partager</button>
+          <span id="partager-count">0</span> partages.
+          <div class="comment-section">
+              <div class="comment">Mother:Wow!</div>
+              <div class="comment">Grandpa: Great!</div>
+          </div>
+      </div>
+      <!-- Section publication -->
+    <form  action="upload.php/accueil.php" method="post" enctype="multipart/form-data">
+        <label for="fileInput">Publier :</label>
+        <form action="votre-script-de-traitement.php" method="post" enctype="multipart/form-data">
+          <input type="file" name="fileToUpload"  id="fileToUpload">
+            <input type="submit" value="Envoyer">
+        </form>
+        
+</body>
+</html>
+</div>
+<script src="accueil.js"></script>
+</form>
+
+    </main>
+  </div>
+
+
+  <main>
+    <div class="form-options">
+      <a href="./connexion.html">
+          <button type="button" class="deconnexion-button">Déconnexion</button>
+      </a>
+  </div></main>
+  </form>
+  
+  <footer class="footer">
+    <p>&copy;2024 RoamWeb. All rights reserved.</p>
+  </footer>
+  
+</footer>
+</div>
+</body>
+</html>
